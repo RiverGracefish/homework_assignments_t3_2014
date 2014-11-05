@@ -1,4 +1,4 @@
-#!usr/bin/env ruby
+#!/usr/bin/env ruby
 
 puts (1..100).map {|i|
   f = i % 3 == 0 ? 'Fizz' : nil
